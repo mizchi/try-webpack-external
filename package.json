@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn --cwd packages/build1 webpack && yarn --cwd packages/build2 webpack"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
